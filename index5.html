@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+overflow-x:hidden;
+}
+
+/* Body */
+body{
+background:#ffffff;
+color:#111827;
+}
+
+/* Navbar */
+.navbar{
+background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+width:100%;
+padding:15px 0;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar h1{
+text-align:center;
+font-size:28px;
+font-weight:600;
+color:black;
+}
+
+.navbar ul{
+display:flex;
+justify-content:center;
+list-style:none;
+margin-top:10px;
+gap:20px;
+}
+
+.navbar ul li{
+padding:6px 12px;
+}
+
+.navbar ul li a{
+text-decoration:none;
+color:white;
+font-size:15px;
+}
+
+.navbar ul li:hover{
+transform:translateY(-3px);
+}
+
+/* Heading */
+.heading{
+text-align:center;
+padding:20px 10px;
+}
+
+.heading h1{
+font-size:30px;
+margin-bottom:5px;
+}
+
+.heading p{
+font-size:15px;
+padding:5px 10px 0 10px;
+color:#374151;
+}
+
+/* Card */
+.cards{
+margin:0 auto;
+max-width:500px;
+padding:20px;
+}
+
+.card{
+background:#f9fafb;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.25);
+}
+
+/* Inputs */
+.input-container{
+position:relative;
+margin-bottom:12px;
+}
+
+.input-container i{
+position:absolute;
+left:12px;
+top:50%;
+transform:translateY(-50%);
+color:#6b7280;
+}
+
+.card input{
+width:100%;
+padding:12px 12px 12px 40px;
+border:1px solid #d1d5db;
+border-radius:8px;
+outline:none;
+}
+
+.card textarea{
+width:100%;
+padding:12px;
+border:1px solid #d1d5db;
+border-radius:8px;
+outline:none;
+}
+
+/* Button */
+.card button{
+width:100%;
+padding:12px;
+background:#0ea5e9;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+margin-top:10px;
+}
+
+.card button:hover{
+background:#0284c7;
+}
+
+/* Text sections */
+.card h1{
+font-size:20px;
+margin:10px 0;
+}
+
+.card p{
+font-size:14px;
+color:#374151;
+}
+
+/* Divider */
+.hr{
+border-top:1px solid #e5e7eb;
+margin:10px 0;
+}
+
+/* Contact */
+.contact-item{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-top:15px;
+}
+
+.social-icon{
+color:#25D366;
+font-size:50px;
+transition:0.3s;
+}
+
+.social-icon:hover{
+transform:scale(1.1);
+}
+
+/* Footer */
+.footer{
+margin-top:45px;
+width:100%;
+background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+padding:12px;
+}
+
+.footer p{
+font-size:15px;
+text-align:center;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+ <h1>AI Web Developer</h1>
+ <ul>
+  <li><a href="index2.html">Home</a></li>
+  <li><a href="index3.html">Projects</a></li>
+  <li><a href="index4.html">Services</a></li> 
+  <li><a href="index5.html">Contact</a></li>
+ </ul>
+</div>
+
+<div class="heading">
+ <h1>Contact Me</h1>
+ <p>Get in touch with me</p>
+</div>
+
+<div class="cards">
+ <div class="card">
+
+  <h1>Send a Message</h1>
+  <div class="hr"></div>
+
+  <div class="input-container">
+    <i class="fa-solid fa-user"></i>
+    <input type="text" placeholder="Your Name">
+  </div>
+
+  <div class="input-container">
+    <i class="fa-solid fa-envelope"></i>
+    <input type="email" placeholder="Your Email">
+  </div>
+
+  <textarea placeholder="Write your message here..." rows="5"></textarea>
+
+  <button type="submit">Send Message</button>
+
+  <div class="hr"></div>
+
+  <h1>Email</h1>
+  <p>AbdullahIqbal09006@gmail.com</p>
+
+  <div class="hr"></div>
+
+  <h1>Connect with Me</h1>
+
+  <div class="contact-item">
+    <a href="https://wa.me/923242510006" target="_blank" class="social-icon">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>  
+  </div>
+ </div>
+</div>
+<div class="footer">
+ <p>©2026 AI Web Developer. All rights reserved.</p>
+</div>
+
+</body>
+</html>

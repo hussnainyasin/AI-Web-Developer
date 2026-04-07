@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+
+<style>
+
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+font-family: 'Segoe UI', sans-serif;
+overflow-x: hidden;
+}
+
+/* Body */
+body{
+background:#ffffff;
+min-height:100vh;
+color:#111827;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+/* Navbar */
+.navbar{
+background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+color:white;
+width:100%;
+padding:15px 0;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar h1{
+text-align:center;
+font-size:28px;
+color:black;
+font-weight:600;
+}
+
+.navbar ul{
+display:flex;
+justify-content:center;
+list-style:none;
+margin-top:10px;
+gap:20px;
+}
+
+.navbar ul li{
+opacity:0.9;
+padding: 6px 12px;
+transition:0.3s;
+}
+
+.navbar ul li a{
+text-decoration:none;
+color:white;
+font-size:15px;
+}
+
+.navbar ul li:hover{
+transform:translateY(-3px);
+opacity:1;
+}
+
+/* Service Section */
+.service{
+background:#f9fafb;
+border-radius:12px;
+width:90%;
+max-width:600px;
+margin:40px auto;
+padding:25px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+text-align:center;
+}
+
+.service h1{
+font-size:24px;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.service p{
+font-size:15px;
+color:#374151;
+}
+
+/* Button */
+.service button{
+margin-top:15px;
+padding:10px 16px;
+border-radius:8px;
+border:none;
+font-size:15px;
+background:#0ea5e9;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.service button a{
+text-decoration:none;
+color:inherit;
+}
+
+.service button:hover{
+background:#0284c7;
+}
+
+/* About */
+.about{
+margin-top:20px;
+text-align:center;
+}
+
+.about h1{
+font-size:28px;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.about p{
+font-size:15px;
+line-height:1.6;
+max-width:600px;
+margin:0 auto;
+text-align:justify;
+padding:0 20px;
+color:#374151;
+}
+
+/* Footer */
+.footer{
+margin-top:40px;
+width:100%;
+background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+padding:12px;
+}
+
+.footer p{
+font-size:15px;
+text-align:center;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+ <h1>AI Web Developer</h1>
+ <ul>
+  <li><a href="index2.html">Home</a></li>
+  <li><a href="index3.html">Projects</a></li>
+  <li><a href="index4.html">Services</a></li> 
+  <li><a href="index5.html">Contact</a></li>
+ </ul>
+</div>
+
+<div class="service">
+ <h1>Build Your Dream Website</h1>
+ <p>A better way to create great and responsive websites now.</p>
+ <button><a href="index3.html ">View My Work</a></button>
+</div>
+
+<div class="about">
+ <h1>About Me</h1>
+ <p>Hi, I’m <strong>Abdullah Iqbal</strong>, a <strong>passionate web developer</strong> who focuses on building modern, responsive, and <b>user-friendly websites</b>. I enjoy turning ideas into real digital experiences that look great and work smoothly across all devices. My goal is to help <b>businesses grow</b> by creating websites that attract visitors and deliver real results.</p>
+</div>
+
+<div class="footer">
+ <p>©2026 AI Web Developer. All rights reserved.</p>
+</div>
+
+</body>
+</html>
